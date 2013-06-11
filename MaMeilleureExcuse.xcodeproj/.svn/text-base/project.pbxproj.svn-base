@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F90A98DF1709F05F00EB7C81 /* MMELeftMenuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F90A98DE1709F05F00EB7C81 /* MMELeftMenuManager.m */; };
+		F91B18A7170CD5F00009DD5B /* splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = F91B18A5170CD5F00009DD5B /* splashscreen.png */; };
+		F91B18A8170CD5F00009DD5B /* splashscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F91B18A6170CD5F00009DD5B /* splashscreen@2x.png */; };
+		F97BF919170C396E008BEEDE /* tmpMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = F97BF918170C396E008BEEDE /* tmpMenu.png */; };
+		F97BF91C170C854E008BEEDE /* MMEServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F97BF91B170C854E008BEEDE /* MMEServerRequest.m */; };
+		F9AE540E170CD42A009FAC9C /* MMESplashscreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AE540C170CD42A009FAC9C /* MMESplashscreenViewController.m */; };
+		F9AE540F170CD42A009FAC9C /* MMESplashscreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9AE540D170CD42A009FAC9C /* MMESplashscreenViewController.xib */; };
+		F9EBA20E1708E4C600D4A9B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9EBA20D1708E4C600D4A9B6 /* UIKit.framework */; };
+		F9EBA2101708E4C600D4A9B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9EBA20F1708E4C600D4A9B6 /* Foundation.framework */; };
+		F9EBA2121708E4C600D4A9B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9EBA2111708E4C600D4A9B6 /* CoreGraphics.framework */; };
+		F9EBA2181708E4C600D4A9B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9EBA2161708E4C600D4A9B6 /* InfoPlist.strings */; };
+		F9EBA21A1708E4C600D4A9B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EBA2191708E4C600D4A9B6 /* main.m */; };
+		F9EBA21E1708E4C600D4A9B6 /* MMEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EBA21D1708E4C600D4A9B6 /* MMEAppDelegate.m */; };
+		F9EBA2201708E4C600D4A9B6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F9EBA21F1708E4C600D4A9B6 /* Default.png */; };
+		F9EBA2221708E4C600D4A9B6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9EBA2211708E4C600D4A9B6 /* Default@2x.png */; };
+		F9EBA2241708E4C600D4A9B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9EBA2231708E4C600D4A9B6 /* Default-568h@2x.png */; };
+		F9EBA2271708E4C600D4A9B6 /* MMEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EBA2261708E4C600D4A9B6 /* MMEViewController.m */; };
+		F9EBA22A1708E4C600D4A9B6 /* MMEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9EBA2281708E4C600D4A9B6 /* MMEViewController.xib */; };
+		F9EBA2321708E4C700D4A9B6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9EBA2311708E4C700D4A9B6 /* SenTestingKit.framework */; };
+		F9EBA2331708E4C700D4A9B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9EBA20D1708E4C600D4A9B6 /* UIKit.framework */; };
+		F9EBA2341708E4C700D4A9B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9EBA20F1708E4C600D4A9B6 /* Foundation.framework */; };
+		F9EBA23C1708E4C700D4A9B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9EBA23A1708E4C700D4A9B6 /* InfoPlist.strings */; };
+		F9EBA23F1708E4C700D4A9B6 /* MaMeilleureExcuseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EBA23E1708E4C700D4A9B6 /* MaMeilleureExcuseTests.m */; };
+		F9EBA2591708E7C500D4A9B6 /* MMEDefaultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EBA2551708E7C500D4A9B6 /* MMEDefaultCell.m */; };
+		F9EBA25A1708E7C500D4A9B6 /* MMEDefaultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9EBA2561708E7C500D4A9B6 /* MMEDefaultTableViewCell.xib */; };
+		F9EBA25B1708E7C500D4A9B6 /* MMEDefaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EBA2581708E7C500D4A9B6 /* MMEDefaultViewController.m */; };
+		F9EBA25F1708E7CF00D4A9B6 /* MMELeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EBA25D1708E7CF00D4A9B6 /* MMELeftMenuViewController.m */; };
+		F9EBA2601708E7CF00D4A9B6 /* MMELeftMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9EBA25E1708E7CF00D4A9B6 /* MMELeftMenuViewController.xib */; };
+		F9EBA26A1708E7DD00D4A9B6 /* MMEConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EBA2621708E7DD00D4A9B6 /* MMEConnectionViewController.m */; };
+		F9EBA26B1708E7DD00D4A9B6 /* MMEConnectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9EBA2631708E7DD00D4A9B6 /* MMEConnectionViewController.xib */; };
+		F9EBA26C1708E7DD00D4A9B6 /* MMECreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EBA2651708E7DD00D4A9B6 /* MMECreateAccountViewController.m */; };
+		F9EBA26D1708E7DD00D4A9B6 /* MMECreateAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9EBA2661708E7DD00D4A9B6 /* MMECreateAccountViewController.xib */; };
+		F9EBA26E1708E7DD00D4A9B6 /* MMEForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EBA2681708E7DD00D4A9B6 /* MMEForgetPasswordViewController.m */; };
+		F9EBA26F1708E7DD00D4A9B6 /* MMEForgetPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9EBA2691708E7DD00D4A9B6 /* MMEForgetPasswordViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9EBA2351708E4C700D4A9B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9EBA2021708E4C600D4A9B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9EBA2091708E4C600D4A9B6;
+			remoteInfo = MaMeilleureExcuse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F90A98DD1709F05F00EB7C81 /* MMELeftMenuManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMELeftMenuManager.h; sourceTree = "<group>"; };
+		F90A98DE1709F05F00EB7C81 /* MMELeftMenuManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMELeftMenuManager.m; sourceTree = "<group>"; };
+		F91B18A5170CD5F00009DD5B /* splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashscreen.png; sourceTree = "<group>"; };
+		F91B18A6170CD5F00009DD5B /* splashscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splashscreen@2x.png"; sourceTree = "<group>"; };
+		F97BF918170C396E008BEEDE /* tmpMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tmpMenu.png; sourceTree = "<group>"; };
+		F97BF91A170C854E008BEEDE /* MMEServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMEServerRequest.h; sourceTree = "<group>"; };
+		F97BF91B170C854E008BEEDE /* MMEServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMEServerRequest.m; sourceTree = "<group>"; };
+		F9AE540B170CD42A009FAC9C /* MMESplashscreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMESplashscreenViewController.h; sourceTree = "<group>"; };
+		F9AE540C170CD42A009FAC9C /* MMESplashscreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMESplashscreenViewController.m; sourceTree = "<group>"; };
+		F9AE540D170CD42A009FAC9C /* MMESplashscreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMESplashscreenViewController.xib; sourceTree = "<group>"; };
+		F9EBA20A1708E4C600D4A9B6 /* MaMeilleureExcuse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaMeilleureExcuse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9EBA20D1708E4C600D4A9B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F9EBA20F1708E4C600D4A9B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F9EBA2111708E4C600D4A9B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F9EBA2151708E4C600D4A9B6 /* MaMeilleureExcuse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MaMeilleureExcuse-Info.plist"; sourceTree = "<group>"; };
+		F9EBA2171708E4C600D4A9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9EBA2191708E4C600D4A9B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9EBA21B1708E4C600D4A9B6 /* MaMeilleureExcuse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MaMeilleureExcuse-Prefix.pch"; sourceTree = "<group>"; };
+		F9EBA21C1708E4C600D4A9B6 /* MMEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMEAppDelegate.h; sourceTree = "<group>"; };
+		F9EBA21D1708E4C600D4A9B6 /* MMEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMEAppDelegate.m; sourceTree = "<group>"; };
+		F9EBA21F1708E4C600D4A9B6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F9EBA2211708E4C600D4A9B6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F9EBA2231708E4C600D4A9B6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F9EBA2251708E4C600D4A9B6 /* MMEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMEViewController.h; sourceTree = "<group>"; };
+		F9EBA2261708E4C600D4A9B6 /* MMEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMEViewController.m; sourceTree = "<group>"; };
+		F9EBA2291708E4C600D4A9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MMEViewController.xib; sourceTree = "<group>"; };
+		F9EBA2301708E4C700D4A9B6 /* MaMeilleureExcuseTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaMeilleureExcuseTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9EBA2311708E4C700D4A9B6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F9EBA2391708E4C700D4A9B6 /* MaMeilleureExcuseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MaMeilleureExcuseTests-Info.plist"; sourceTree = "<group>"; };
+		F9EBA23B1708E4C700D4A9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9EBA23D1708E4C700D4A9B6 /* MaMeilleureExcuseTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaMeilleureExcuseTests.h; sourceTree = "<group>"; };
+		F9EBA23E1708E4C700D4A9B6 /* MaMeilleureExcuseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaMeilleureExcuseTests.m; sourceTree = "<group>"; };
+		F9EBA2501708E63500D4A9B6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9EBA2511708E63500D4A9B6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9EBA2541708E7C500D4A9B6 /* MMEDefaultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMEDefaultCell.h; sourceTree = "<group>"; };
+		F9EBA2551708E7C500D4A9B6 /* MMEDefaultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMEDefaultCell.m; sourceTree = "<group>"; };
+		F9EBA2561708E7C500D4A9B6 /* MMEDefaultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMEDefaultTableViewCell.xib; sourceTree = "<group>"; };
+		F9EBA2571708E7C500D4A9B6 /* MMEDefaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMEDefaultViewController.h; sourceTree = "<group>"; };
+		F9EBA2581708E7C500D4A9B6 /* MMEDefaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMEDefaultViewController.m; sourceTree = "<group>"; };
+		F9EBA25C1708E7CF00D4A9B6 /* MMELeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMELeftMenuViewController.h; sourceTree = "<group>"; };
+		F9EBA25D1708E7CF00D4A9B6 /* MMELeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMELeftMenuViewController.m; sourceTree = "<group>"; };
+		F9EBA25E1708E7CF00D4A9B6 /* MMELeftMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMELeftMenuViewController.xib; sourceTree = "<group>"; };
+		F9EBA2611708E7DD00D4A9B6 /* MMEConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMEConnectionViewController.h; sourceTree = "<group>"; };
+		F9EBA2621708E7DD00D4A9B6 /* MMEConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMEConnectionViewController.m; sourceTree = "<group>"; };
+		F9EBA2631708E7DD00D4A9B6 /* MMEConnectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMEConnectionViewController.xib; sourceTree = "<group>"; };
+		F9EBA2641708E7DD00D4A9B6 /* MMECreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMECreateAccountViewController.h; sourceTree = "<group>"; };
+		F9EBA2651708E7DD00D4A9B6 /* MMECreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMECreateAccountViewController.m; sourceTree = "<group>"; };
+		F9EBA2661708E7DD00D4A9B6 /* MMECreateAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMECreateAccountViewController.xib; sourceTree = "<group>"; };
+		F9EBA2671708E7DD00D4A9B6 /* MMEForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMEForgetPasswordViewController.h; sourceTree = "<group>"; };
+		F9EBA2681708E7DD00D4A9B6 /* MMEForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMEForgetPasswordViewController.m; sourceTree = "<group>"; };
+		F9EBA2691708E7DD00D4A9B6 /* MMEForgetPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMEForgetPasswordViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9EBA2071708E4C600D4A9B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EBA20E1708E4C600D4A9B6 /* UIKit.framework in Frameworks */,
+				F9EBA2101708E4C600D4A9B6 /* Foundation.framework in Frameworks */,
+				F9EBA2121708E4C600D4A9B6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EBA22C1708E4C700D4A9B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EBA2321708E4C700D4A9B6 /* SenTestingKit.framework in Frameworks */,
+				F9EBA2331708E4C700D4A9B6 /* UIKit.framework in Frameworks */,
+				F9EBA2341708E4C700D4A9B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F97BF917170C3918008BEEDE /* tmp */ = {
+			isa = PBXGroup;
+			children = (
+				F97BF918170C396E008BEEDE /* tmpMenu.png */,
+			);
+			path = tmp;
+			sourceTree = "<group>";
+		};
+		F9EBA2011708E4C600D4A9B6 = {
+			isa = PBXGroup;
+			children = (
+				F9EBA2131708E4C600D4A9B6 /* MaMeilleureExcuse */,
+				F9EBA2371708E4C700D4A9B6 /* MaMeilleureExcuseTests */,
+				F9EBA20C1708E4C600D4A9B6 /* Frameworks */,
+				F9EBA20B1708E4C600D4A9B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9EBA20B1708E4C600D4A9B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9EBA20A1708E4C600D4A9B6 /* MaMeilleureExcuse.app */,
+				F9EBA2301708E4C700D4A9B6 /* MaMeilleureExcuseTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9EBA20C1708E4C600D4A9B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9EBA20D1708E4C600D4A9B6 /* UIKit.framework */,
+				F9EBA20F1708E4C600D4A9B6 /* Foundation.framework */,
+				F9EBA2111708E4C600D4A9B6 /* CoreGraphics.framework */,
+				F9EBA2311708E4C700D4A9B6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9EBA2131708E4C600D4A9B6 /* MaMeilleureExcuse */ = {
+			isa = PBXGroup;
+			children = (
+				F9EBA21C1708E4C600D4A9B6 /* MMEAppDelegate.h */,
+				F9EBA21D1708E4C600D4A9B6 /* MMEAppDelegate.m */,
+				F9EBA2251708E4C600D4A9B6 /* MMEViewController.h */,
+				F9EBA2261708E4C600D4A9B6 /* MMEViewController.m */,
+				F9EBA2281708E4C600D4A9B6 /* MMEViewController.xib */,
+				F9EBA2481708E59A00D4A9B6 /* defaultsControllers */,
+				F9EBA2531708E72200D4A9B6 /* menu */,
+				F9EBA2491708E59A00D4A9B6 /* profil */,
+				F9EBA24A1708E59A00D4A9B6 /* ressources */,
+				F9EBA24C1708E59A00D4A9B6 /* server */,
+				F9EBA2521708E69400D4A9B6 /* splashscreen */,
+				F9EBA2141708E4C600D4A9B6 /* Supporting Files */,
+			);
+			path = MaMeilleureExcuse;
+			sourceTree = "<group>";
+		};
+		F9EBA2141708E4C600D4A9B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9EBA2151708E4C600D4A9B6 /* MaMeilleureExcuse-Info.plist */,
+				F9EBA2161708E4C600D4A9B6 /* InfoPlist.strings */,
+				F9EBA2191708E4C600D4A9B6 /* main.m */,
+				F9EBA21B1708E4C600D4A9B6 /* MaMeilleureExcuse-Prefix.pch */,
+				F9EBA21F1708E4C600D4A9B6 /* Default.png */,
+				F9EBA2211708E4C600D4A9B6 /* Default@2x.png */,
+				F9EBA2231708E4C600D4A9B6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9EBA2371708E4C700D4A9B6 /* MaMeilleureExcuseTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9EBA23D1708E4C700D4A9B6 /* MaMeilleureExcuseTests.h */,
+				F9EBA23E1708E4C700D4A9B6 /* MaMeilleureExcuseTests.m */,
+				F9EBA2381708E4C700D4A9B6 /* Supporting Files */,
+			);
+			path = MaMeilleureExcuseTests;
+			sourceTree = "<group>";
+		};
+		F9EBA2381708E4C700D4A9B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9EBA2391708E4C700D4A9B6 /* MaMeilleureExcuseTests-Info.plist */,
+				F9EBA23A1708E4C700D4A9B6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9EBA2481708E59A00D4A9B6 /* defaultsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F9EBA2541708E7C500D4A9B6 /* MMEDefaultCell.h */,
+				F9EBA2551708E7C500D4A9B6 /* MMEDefaultCell.m */,
+				F9EBA2561708E7C500D4A9B6 /* MMEDefaultTableViewCell.xib */,
+				F9EBA2571708E7C500D4A9B6 /* MMEDefaultViewController.h */,
+				F9EBA2581708E7C500D4A9B6 /* MMEDefaultViewController.m */,
+			);
+			path = defaultsControllers;
+			sourceTree = "<group>";
+		};
+		F9EBA2491708E59A00D4A9B6 /* profil */ = {
+			isa = PBXGroup;
+			children = (
+				F9EBA2611708E7DD00D4A9B6 /* MMEConnectionViewController.h */,
+				F9EBA2621708E7DD00D4A9B6 /* MMEConnectionViewController.m */,
+				F9EBA2631708E7DD00D4A9B6 /* MMEConnectionViewController.xib */,
+				F9EBA2641708E7DD00D4A9B6 /* MMECreateAccountViewController.h */,
+				F9EBA2651708E7DD00D4A9B6 /* MMECreateAccountViewController.m */,
+				F9EBA2661708E7DD00D4A9B6 /* MMECreateAccountViewController.xib */,
+				F9EBA2671708E7DD00D4A9B6 /* MMEForgetPasswordViewController.h */,
+				F9EBA2681708E7DD00D4A9B6 /* MMEForgetPasswordViewController.m */,
+				F9EBA2691708E7DD00D4A9B6 /* MMEForgetPasswordViewController.xib */,
+			);
+			path = profil;
+			sourceTree = "<group>";
+		};
+		F9EBA24A1708E59A00D4A9B6 /* ressources */ = {
+			isa = PBXGroup;
+			children = (
+				F97BF917170C3918008BEEDE /* tmp */,
+				F9EBA24B1708E59A00D4A9B6 /* images */,
+			);
+			path = ressources;
+			sourceTree = "<group>";
+		};
+		F9EBA24B1708E59A00D4A9B6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F91B18A5170CD5F00009DD5B /* splashscreen.png */,
+				F91B18A6170CD5F00009DD5B /* splashscreen@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		F9EBA24C1708E59A00D4A9B6 /* server */ = {
+			isa = PBXGroup;
+			children = (
+				F97BF91A170C854E008BEEDE /* MMEServerRequest.h */,
+				F97BF91B170C854E008BEEDE /* MMEServerRequest.m */,
+			);
+			path = server;
+			sourceTree = "<group>";
+		};
+		F9EBA2521708E69400D4A9B6 /* splashscreen */ = {
+			isa = PBXGroup;
+			children = (
+				F9AE540B170CD42A009FAC9C /* MMESplashscreenViewController.h */,
+				F9AE540C170CD42A009FAC9C /* MMESplashscreenViewController.m */,
+				F9AE540D170CD42A009FAC9C /* MMESplashscreenViewController.xib */,
+			);
+			path = splashscreen;
+			sourceTree = "<group>";
+		};
+		F9EBA2531708E72200D4A9B6 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				F9EBA25C1708E7CF00D4A9B6 /* MMELeftMenuViewController.h */,
+				F9EBA25D1708E7CF00D4A9B6 /* MMELeftMenuViewController.m */,
+				F9EBA25E1708E7CF00D4A9B6 /* MMELeftMenuViewController.xib */,
+				F90A98DD1709F05F00EB7C81 /* MMELeftMenuManager.h */,
+				F90A98DE1709F05F00EB7C81 /* MMELeftMenuManager.m */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9EBA2091708E4C600D4A9B6 /* MaMeilleureExcuse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9EBA2421708E4C700D4A9B6 /* Build configuration list for PBXNativeTarget "MaMeilleureExcuse" */;
+			buildPhases = (
+				F9EBA2061708E4C600D4A9B6 /* Sources */,
+				F9EBA2071708E4C600D4A9B6 /* Frameworks */,
+				F9EBA2081708E4C600D4A9B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaMeilleureExcuse;
+			productName = MaMeilleureExcuse;
+			productReference = F9EBA20A1708E4C600D4A9B6 /* MaMeilleureExcuse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9EBA22F1708E4C700D4A9B6 /* MaMeilleureExcuseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9EBA2451708E4C700D4A9B6 /* Build configuration list for PBXNativeTarget "MaMeilleureExcuseTests" */;
+			buildPhases = (
+				F9EBA22B1708E4C700D4A9B6 /* Sources */,
+				F9EBA22C1708E4C700D4A9B6 /* Frameworks */,
+				F9EBA22D1708E4C700D4A9B6 /* Resources */,
+				F9EBA22E1708E4C700D4A9B6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9EBA2361708E4C700D4A9B6 /* PBXTargetDependency */,
+			);
+			name = MaMeilleureExcuseTests;
+			productName = MaMeilleureExcuseTests;
+			productReference = F9EBA2301708E4C700D4A9B6 /* MaMeilleureExcuseTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9EBA2021708E4C600D4A9B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MME;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = JulienS;
+			};
+			buildConfigurationList = F9EBA2051708E4C600D4A9B6 /* Build configuration list for PBXProject "MaMeilleureExcuse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+			);
+			mainGroup = F9EBA2011708E4C600D4A9B6;
+			productRefGroup = F9EBA20B1708E4C600D4A9B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9EBA2091708E4C600D4A9B6 /* MaMeilleureExcuse */,
+				F9EBA22F1708E4C700D4A9B6 /* MaMeilleureExcuseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9EBA2081708E4C600D4A9B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EBA2181708E4C600D4A9B6 /* InfoPlist.strings in Resources */,
+				F9EBA2201708E4C600D4A9B6 /* Default.png in Resources */,
+				F9EBA2221708E4C600D4A9B6 /* Default@2x.png in Resources */,
+				F9EBA2241708E4C600D4A9B6 /* Default-568h@2x.png in Resources */,
+				F9EBA22A1708E4C600D4A9B6 /* MMEViewController.xib in Resources */,
+				F9EBA25A1708E7C500D4A9B6 /* MMEDefaultTableViewCell.xib in Resources */,
+				F9EBA2601708E7CF00D4A9B6 /* MMELeftMenuViewController.xib in Resources */,
+				F9EBA26B1708E7DD00D4A9B6 /* MMEConnectionViewController.xib in Resources */,
+				F9EBA26D1708E7DD00D4A9B6 /* MMECreateAccountViewController.xib in Resources */,
+				F9EBA26F1708E7DD00D4A9B6 /* MMEForgetPasswordViewController.xib in Resources */,
+				F97BF919170C396E008BEEDE /* tmpMenu.png in Resources */,
+				F9AE540F170CD42A009FAC9C /* MMESplashscreenViewController.xib in Resources */,
+				F91B18A7170CD5F00009DD5B /* splashscreen.png in Resources */,
+				F91B18A8170CD5F00009DD5B /* splashscreen@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EBA22D1708E4C700D4A9B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EBA23C1708E4C700D4A9B6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9EBA22E1708E4C700D4A9B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9EBA2061708E4C600D4A9B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EBA21A1708E4C600D4A9B6 /* main.m in Sources */,
+				F9EBA21E1708E4C600D4A9B6 /* MMEAppDelegate.m in Sources */,
+				F9EBA2271708E4C600D4A9B6 /* MMEViewController.m in Sources */,
+				F9EBA2591708E7C500D4A9B6 /* MMEDefaultCell.m in Sources */,
+				F9EBA25B1708E7C500D4A9B6 /* MMEDefaultViewController.m in Sources */,
+				F9EBA25F1708E7CF00D4A9B6 /* MMELeftMenuViewController.m in Sources */,
+				F9EBA26A1708E7DD00D4A9B6 /* MMEConnectionViewController.m in Sources */,
+				F9EBA26C1708E7DD00D4A9B6 /* MMECreateAccountViewController.m in Sources */,
+				F9EBA26E1708E7DD00D4A9B6 /* MMEForgetPasswordViewController.m in Sources */,
+				F90A98DF1709F05F00EB7C81 /* MMELeftMenuManager.m in Sources */,
+				F97BF91C170C854E008BEEDE /* MMEServerRequest.m in Sources */,
+				F9AE540E170CD42A009FAC9C /* MMESplashscreenViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EBA22B1708E4C700D4A9B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EBA23F1708E4C700D4A9B6 /* MaMeilleureExcuseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9EBA2361708E4C700D4A9B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9EBA2091708E4C600D4A9B6 /* MaMeilleureExcuse */;
+			targetProxy = F9EBA2351708E4C700D4A9B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9EBA2161708E4C600D4A9B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9EBA2171708E4C600D4A9B6 /* en */,
+				F9EBA2501708E63500D4A9B6 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F9EBA2281708E4C600D4A9B6 /* MMEViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9EBA2291708E4C600D4A9B6 /* en */,
+			);
+			name = MMEViewController.xib;
+			sourceTree = "<group>";
+		};
+		F9EBA23A1708E4C700D4A9B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9EBA23B1708E4C700D4A9B6 /* en */,
+				F9EBA2511708E63500D4A9B6 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9EBA2401708E4C700D4A9B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9EBA2411708E4C700D4A9B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9EBA2431708E4C700D4A9B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaMeilleureExcuse/MaMeilleureExcuse-Prefix.pch";
+				INFOPLIST_FILE = "MaMeilleureExcuse/MaMeilleureExcuse-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F9EBA2441708E4C700D4A9B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaMeilleureExcuse/MaMeilleureExcuse-Prefix.pch";
+				INFOPLIST_FILE = "MaMeilleureExcuse/MaMeilleureExcuse-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F9EBA2461708E4C700D4A9B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MaMeilleureExcuse.app/MaMeilleureExcuse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaMeilleureExcuse/MaMeilleureExcuse-Prefix.pch";
+				INFOPLIST_FILE = "MaMeilleureExcuseTests/MaMeilleureExcuseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F9EBA2471708E4C700D4A9B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MaMeilleureExcuse.app/MaMeilleureExcuse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaMeilleureExcuse/MaMeilleureExcuse-Prefix.pch";
+				INFOPLIST_FILE = "MaMeilleureExcuseTests/MaMeilleureExcuseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9EBA2051708E4C600D4A9B6 /* Build configuration list for PBXProject "MaMeilleureExcuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9EBA2401708E4C700D4A9B6 /* Debug */,
+				F9EBA2411708E4C700D4A9B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9EBA2421708E4C700D4A9B6 /* Build configuration list for PBXNativeTarget "MaMeilleureExcuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9EBA2431708E4C700D4A9B6 /* Debug */,
+				F9EBA2441708E4C700D4A9B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9EBA2451708E4C700D4A9B6 /* Build configuration list for PBXNativeTarget "MaMeilleureExcuseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9EBA2461708E4C700D4A9B6 /* Debug */,
+				F9EBA2471708E4C700D4A9B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9EBA2021708E4C600D4A9B6 /* Project object */;
+}
